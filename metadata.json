@@ -1,0 +1,8 @@
+{
+  "name": "B2Cmail",
+  "description": "B2Cmail - Hệ thống Email Marketing & Mail App Doanh nghiệp (Enterprise AI Email Marketing & Workspace Suite) tích hợp Brand Kit, Merge Tags, Phê duyệt nội bộ, Chấm điểm Spam và Theo dõi Mở/Click thực tế.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
