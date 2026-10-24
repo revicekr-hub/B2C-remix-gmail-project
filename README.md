@@ -137,32 +137,9 @@ Trong hoạt động Marketing và Chăm sóc khách hàng (B2C & B2B), các đ�
 npm install
 ```
 
-### Bước 2: Cấu hình Biến môi trường (`.env`)
-Tạo tệp `.env` tại thư mục gốc của dự án (có thể sao chép từ `.env.example`) và điền khóa API Gemini của bạn:
-```env
-GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
-```
-> **Lưu ý:** Ngay cả khi chưa cấu hình `GEMINI_API_KEY` hoặc khi mất kết nối mạng, hệ thống vẫn hoạt động bình thường nhờ cơ chế Fallback thông minh (`generateFallbackCampaign`) phản hồi đầy đủ theo từng Tông giọng và Mục tiêu chiến dịch.
-
-### Bước 3: Chạy ở môi trường Development (Cổng `3000`)
-```bash
-npm run dev
-```
-Sau khi khởi chạy, mở trình duyệt tại địa chỉ: **`http://localhost:3000`**
-
-### Bước 4: Kiểm tra TypeScript (Lint), Build & Chạy bản Production
-```bash
-npm run lint && npm run build && npm run start
-```
-
-### Bước 5: Chạy Kiểm thử Đơn vị (Unit Tests)
-```bash
-npx tsx --test src/utils/serverHelpers.test.ts src/services/userDatabase.test.ts src/utils/campaignAndInboxLogic.test.ts src/utils/enterpriseLogic.test.ts src/utils/schedulerLogic.test.ts
-```
-
 ---
 
-## 4. 🚀 Hướng dẫn Demo 5 Bước (End-to-End)
+🚀 Hướng dẫn Demo 5 Bước (End-to-End)
 
 Bạn có thể bấm nút **"📖 Hướng dẫn sử dụng & Kịch bản Demo"** ngay trên thanh Header của ứng dụng bất kỳ lúc nào, hoặc thực hiện theo 5 bước chuẩn dưới đây:
 
@@ -192,7 +169,10 @@ Bạn có thể bấm nút **"📖 Hướng dẫn sử dụng & Kịch bản Dem
 - Tại dải **"🧪 Dữ liệu Mô phỏng Thực tế (Live Tracking Sandbox)"** ngay bên dưới khung Preview:
   1. Bấm **`🚀 Chạy Gửi Mô Phỏng`** để gọi API `POST /api/campaign/send-simulation` (trộn biến Merge Tags và nhúng Tracking Pixel 1x1 GIF).
   2. Bấm **`+ Mở thư (Open Pixel)`**, **`+ Click CTA`**, và **`+ Unsubscribe`** để kiểm chứng các bộ đếm sự kiện thực tế tăng lên theo thời gian thực.
-#   B 2 C - r e m i x - g m a i l - p r o j e c t  
- #   B 2 C - r e m i x - g m a i l - p r o j e c t  
- #   B 2 C - r e m i x - g m a i l - p r o j e c t  
+#   B 2 C - r e m i x - g m a i l - p r o j e c t 
+ 
+ #   B 2 C - r e m i x - g m a i l - p r o j e c t 
+ 
+ #   B 2 C - r e m i x - g m a i l - p r o j e c t 
+ 
  
